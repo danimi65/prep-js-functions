@@ -61,7 +61,9 @@ console.log(difference);
  function multiply (number2, number1) {
  	return number2 * number1;
  }
-console.log(multiply(b,a));
+ var product = multiply(b,a);
+
+console.log(product);
 
 /**
  *  #5
@@ -107,7 +109,7 @@ console.log(checkSum(sum));
  *  then prints the result to the console.
  */
 
-
+function checkProduct ()
 /**
  *  #8
  *  Function - addThenSubtract
