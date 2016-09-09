@@ -69,8 +69,14 @@ console.log(multiply(b,a));
  *  value stored in `difference`.
  */
 
+var difference = 8;
+console.log(difference);
 
+function checkDifference (howMuch) {
+	return "My football team lost " + howMuch + " times this week.";
+}
 
+console.log(checkDifference(difference));
 
 
 /**
