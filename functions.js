@@ -109,7 +109,11 @@ console.log(checkSum(sum));
  *  then prints the result to the console.
  */
 
-function checkProduct ()
+function checkProduct (yas, wut) {
+	return yas * wut;
+}
+console.log(checkProduct(product, difference));
+
 /**
  *  #8
  *  Function - addThenSubtract
