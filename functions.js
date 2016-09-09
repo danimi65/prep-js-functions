@@ -45,7 +45,11 @@ console.log(sum);
 function subtract (number2, number1) {
 	return number2 - number1;
 }
-console.log(subtract(b,a));
+subtract (b,a);
+var difference = subtract(b,a);
+
+console.log(difference);
+
 /**
  *  #4
  *  Function - multiply
@@ -69,7 +73,7 @@ console.log(multiply(b,a));
  *  value stored in `difference`.
  */
 
-var difference = 8;
+
 console.log(difference);
 
 function checkDifference (howMuch) {
