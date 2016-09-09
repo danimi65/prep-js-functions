@@ -74,7 +74,7 @@ console.log(multiply(b,a));
  */
 
 
-console.log(difference);
+
 
 function checkDifference (howMuch) {
 	return "My football team lost " + howMuch + " times this week.";
@@ -93,6 +93,10 @@ console.log(checkDifference(difference));
  *  stored in the variable `sum`.
  */
 
+function checkSum (wut) {
+	return "I CAN ADDZ " + wut + " NUMBERS";
+}
+console.log(checkSum(sum));
 
 /**
  *  #7
