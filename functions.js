@@ -128,7 +128,11 @@ console.log(checkProduct(product, difference));
  *      addThenSubtract(4, 5, 7); //-> returns 2 because 4 + 5 - 7 = 2
  */
 
+function addThenSubtract (yas, wut, ok) {
+	return yas + wut - ok;
+}
 
+console.log(addThenSubtract(sum, product, difference));
 /**
  *  #9
  *  Function - addThenMultiply
