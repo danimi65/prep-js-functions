@@ -12,6 +12,11 @@
  *  functions.
  */
 
+var a = 7;
+var b = 10;
+
+console.log(a);
+console.log(b);
 
 /**
  *  #2
@@ -21,6 +26,13 @@
  *  Store this value in a variable named `sum`.
  */
 
+function add (number1, number2){
+	return number1 + number2;
+}
+add (a,b);
+var sum = add(a,b);
+
+console.log(sum);
 
 /**
  *  #3
@@ -30,7 +42,10 @@
  *  Store this value in a variable named `difference`
  */
 
-
+function subtract (number2, number1) {
+	return number2 - number1;
+}
+console.log(subtract(b,a));
 /**
  *  #4
  *  Function - multiply
@@ -39,6 +54,10 @@
  *  Store this value in a variable named `product`
  */
 
+ function multiply (number2, number1) {
+ 	return number2 * number1;
+ }
+console.log(multiply(b,a));
 
 /**
  *  #5
@@ -49,6 +68,9 @@
  *  "My football team lost X times this week", where `X` is the
  *  value stored in `difference`.
  */
+
+
+
 
 
 /**
