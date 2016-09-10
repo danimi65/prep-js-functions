@@ -130,13 +130,6 @@ console.log(checkProduct(product, difference));
  *      addThenSubtract(4, 5, 7); //-> returns 2 because 4 + 5 - 7 = 2
  */
 
-function addThenSubtract (n1, n2, n3) {
-	var sum = add(a, b);
-	var difference = subtract (sum, n3)
-	return difference;
-}
-
-console.log(addThenSubtract(a, b, c));
 
 
 function addThenSubtract(n1, n2, n3) {
@@ -298,14 +291,14 @@ console.log(eatFood("Danika", "Harada", "ice cream"));
 
 function repeater() {
 	var x;
-	if(canDrinkBeer === true){
+	if(canDrinkBeer === 21){
 		x = "Bacon Pancakes, makin' Bacon Pancakes...";
 	} 
 	else {
-	x = "Let it go...LET IT GOOOOOOoOoOoOo...";
+		x = "Let it go...LET IT GOOOOOOoOoOoOo...";
+	}
+	return x;
 }
 for(var i = 0; i<howMany; i ++) {
-	console.log(x);
-}
-}
-repeater();
+		console.log(repeater());
+	}
