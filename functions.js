@@ -243,6 +243,17 @@ console.log(throwParty(canDrinkBeer));
  *      "Peter Bojanglesloves loves to eat California Burritos"
  */
 
+ 
+
+function eatFood (name1, name2, yum) {
+	function createFullname (name1, name2) {
+		return name1 + name2;
+	}
+
+	return createFullName(name1, name2) + " loves to eat " + yum; 
+}
+
+console.log(eatFood("Danika", "Harada", "ice cream"));
 
 /**
  *  #14
