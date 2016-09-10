@@ -165,8 +165,16 @@ console.log(addThenMultiply(sum, difference, product));
  * Call this function and pass your first and last name into it.
  * Store the return value to a variable named `myFullName`
  */
+var firstName = "Danika";
+var lastName = "Harada";
+console.log(firstName,lastName);
 
+function createFullName(name1, name2){
 
+var myFullName = name1 + " " +  name2;
+return myFullName;
+}
+console.log(createFullName(firstName, lastName));
 /**
  *  #11
  *  Function - verifyDrinkingAge
