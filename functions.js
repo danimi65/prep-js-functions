@@ -14,9 +14,11 @@
 
 var a = 7;
 var b = 10;
+var c = 2;
 
 console.log(a);
 console.log(b);
+console.log(c);
 
 /**
  *  #2
@@ -128,11 +130,19 @@ console.log(checkProduct(product, difference));
  *      addThenSubtract(4, 5, 7); //-> returns 2 because 4 + 5 - 7 = 2
  */
 
-function addThenSubtract (yas, wut, ok) {
-	return yas + wut - ok;
+function addThenSubtract (n1, n2, n3) {
+	var sum = add(a, b);
+	var difference = subtract (sum, n3)
+	return difference;
 }
 
-console.log(addThenSubtract(sum, product, difference));
+console.log(addThenSubtract(a, b, c));
+
+
+function addThenSubtract(n1, n2, n3) {
+	return subtract (add(n1, n2), n3);
+}
+console.log(addThenSubtract(a,b,c));
 /**
  *  #9
  *  Function - addThenMultiply
@@ -145,12 +155,26 @@ console.log(addThenSubtract(sum, product, difference));
  *  Store the return of this function to a variable named `howMany`
  */
  
-function addThenMultiply(number1, number2, number3){
+/* function addThenMultiply(number1, number2, number3){
 	var howMany = (number1 + number2) * number3;
 	return howMany;
 }
-console.log(addThenMultiply(sum, difference, product));
+ console.log(addThenMultiply(sum, difference, product)); */
 
+
+
+function addThenMultiply(n1, n2, n3){
+	return multiply (add(n1, n2), n3);
+}
+var howMany = addThenMultiply(a,b,c);
+
+console.log(howMany); 
+
+
+/* function addThenMultiply(n1, n2, n3) {
+	return multiply(add(n1, n2), n3);
+}
+console.log(addThenMultiply(a,b,c)); */
 /**
  *  #10
  *  Function - createFullName
@@ -167,12 +191,19 @@ console.log(addThenMultiply(sum, difference, product));
  */
 
 
-function createFullName(name1, name2){
+ /* function createFullName(name1, name2){
 
-var myFullName = name1 + " " +  name2;
+var myFullName = name1 + " " + name2 ;
 return myFullName;
 }
-console.log(createFullName("Danika","Harada"));
+console.log(createFullName("Danika", "Harada"));  */
+
+function createFullName(firstName, lastName){
+	return firstName + " " + lastName;
+
+}
+var myFullName = createFullName("Danika", "Harada");
+console.log(myFullName);
 /**
  *  #11
  *  Function - verifyDrinkingAge
@@ -265,3 +296,16 @@ console.log(eatFood("Danika", "Harada", "ice cream"));
  *  othewise the message will be `"Let it go.... LET IT GOOOOOOoOoOoOo..."`
  */
 
+function repeater() {
+	var x;
+	if(canDrinkBeer === true){
+		x = "Bacon Pancakes, makin' Bacon Pancakes...";
+	} 
+	else {
+	x = "Let it go...LET IT GOOOOOOoOoOoOo...";
+}
+for(var i = 0; i<howMany; i ++) {
+	console.log(x);
+}
+}
+repeater();
