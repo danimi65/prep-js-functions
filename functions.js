@@ -213,6 +213,15 @@ console.log(verifyDrinkingAge(canDrinkBeer));
  *  should be "This Party will have an open bar".
  */
 
+function throwParty (age) {
+	if (age < 21)  {
+		return greeting = "The Party will have tons of cake!";
+	} else {
+		return greeting = "This Party will have an open bar";
+	}
+
+}
+console.log(throwParty(canDrinkBeer));
 
 /**
  *  #13
