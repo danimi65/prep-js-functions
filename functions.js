@@ -190,7 +190,19 @@ console.log(createFullName(firstName, lastName));
  *  Store the return value to a variable named** `canDrinkBeer`
  */
 
+var canDrinkBeer = 21;
+console.log(canDrinkBeer);
 
+
+function verifyDrinkingAge (age){
+
+ if (age >= 21) {
+ 	return true;
+ }
+ 	return false;
+ 
+}
+console.log(verifyDrinkingAge(canDrinkBeer));
 /**
  *  #12
  *  Function - throwParty
