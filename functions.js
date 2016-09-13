@@ -236,7 +236,7 @@ console.log("canDrinkBeer:", canDrinkBeer);
  */
 
 function throwParty (age) {
-	if (age < 21)  {
+	if (age === false)  {
 		return greeting = "The party will have tons of cake!";
 	} else {
 		return greeting = "This party will have an open bar";
