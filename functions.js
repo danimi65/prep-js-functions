@@ -267,7 +267,7 @@ console.log(throwParty(canDrinkBeer));
 
  
 
-function eatFood (name1, name2, yum) {
+/* function eatFood (name1, name2, yum) {
 	function createFullname (name1, name2) {
 		return name1 + name2;
 	}
@@ -275,8 +275,13 @@ function eatFood (name1, name2, yum) {
 	return createFullName(name1, name2) + " loves to eat " + yum; 
 }
 
-console.log(eatFood("Danika", "Harada", "ice cream"));
+console.log(eatFood("Danika", "Harada", "ice cream")); */
 
+function eatFood(food){
+	return myFullName + " loves to eat " + food;
+}
+var foodie = eatFood("pizza");
+console.log(foodie);
 /**
  *  #14
  *  Function - repeater
