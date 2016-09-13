@@ -212,7 +212,7 @@ console.log(myFullName);
  *  Store the return value to a variable named** `canDrinkBeer`
  */
 
-var canDrinkBeer = 21;
+var canDrinkBeer = verifyDrinkingAge(22);
 console.log(canDrinkBeer);
 
 
@@ -224,7 +224,7 @@ function verifyDrinkingAge (age){
  	return false;
  
 }
-console.log(verifyDrinkingAge(canDrinkBeer));
+console.log("canDrinkBeer:", canDrinkBeer);
 /**
  *  #12
  *  Function - throwParty
@@ -237,9 +237,9 @@ console.log(verifyDrinkingAge(canDrinkBeer));
 
 function throwParty (age) {
 	if (age < 21)  {
-		return greeting = "The Party will have tons of cake!";
+		return greeting = "The party will have tons of cake!";
 	} else {
-		return greeting = "This Party will have an open bar";
+		return greeting = "This party will have an open bar";
 	}
 
 }
